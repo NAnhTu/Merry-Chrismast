@@ -174,7 +174,7 @@ function createGift() {
     setTimeout(() => {
       popup.style.display = 'none';
       popup.remove();
-    }, 3000);
+    }, 10000);
 
     gift.remove();
   });
